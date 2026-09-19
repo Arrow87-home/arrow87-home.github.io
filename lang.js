@@ -20,8 +20,7 @@ const translations = {
     featureLocal: "Local-first",
     featureFlow: "Flow integration",
     featureCommunity: "Community app",
-    sourceCode: "Source code",
-    supportIssues: "Support & issues",
+    communitySupport: "Community & support",
     futureTitle: "More projects may follow",
     futureCopy: "Arrow87 Home is a home for practical tools that grow out of real smart-home problems.",
     aboutEyebrow: "About",
@@ -40,7 +39,7 @@ const translations = {
     supportCopy: "If these apps are useful to you and you would like to support continued development, a small donation is always appreciated.",
     supportButton: "Donate via PayPal",
     footerTagline: "Independent Homey community development",
-    footerSupport: "Support",
+    footerCommunity: "Community",
     footerDonate: "Donate",
     legal: "Homey is a trademark of Athom B.V. Arrow87 Home is an independent community developer and is not affiliated with Athom B.V."
   },
@@ -65,8 +64,7 @@ const translations = {
     featureLocal: "Lokaal eerst",
     featureFlow: "Flow-integratie",
     featureCommunity: "Community-app",
-    sourceCode: "Broncode",
-    supportIssues: "Support & issues",
+    communitySupport: "Community & support",
     futureTitle: "Meer projecten kunnen volgen",
     futureCopy: "Arrow87 Home is de thuisbasis voor praktische tools die ontstaan uit echte smarthome-problemen.",
     aboutEyebrow: "Over",
@@ -85,7 +83,7 @@ const translations = {
     supportCopy: "Zijn deze apps nuttig voor je en wil je de verdere ontwikkeling ondersteunen, dan wordt een kleine donatie altijd gewaardeerd.",
     supportButton: "Doneer via PayPal",
     footerTagline: "Onafhankelijke Homey community-ontwikkeling",
-    footerSupport: "Support",
+    footerCommunity: "Community",
     footerDonate: "Doneren",
     legal: "Homey is een handelsmerk van Athom B.V. Arrow87 Home is een onafhankelijke community developer en is niet gelieerd aan Athom B.V."
   }
