@@ -306,6 +306,39 @@ h3 {
   color: var(--muted);
   font-size: 1.08rem;
 }
+
+.support-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.support-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 36px;
+  padding: 30px 32px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at 88% 20%, rgba(74,147,163,.12), transparent 18rem),
+    rgba(255,255,255,.025);
+}
+
+.support-card h2 {
+  margin-bottom: 14px;
+  font-size: clamp(1.8rem, 3.2vw, 2.7rem);
+}
+
+.support-copy {
+  max-width: 680px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.support-button {
+  white-space: nowrap;
+}
 .principles {
   display: grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
@@ -385,6 +418,13 @@ h3 {
     gap: 30px;
   }
   .principles { grid-template-columns: 1fr; }
+  .support-card {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .support-button {
+    justify-self: start;
+  }
   .site-footer { grid-template-columns: 1fr; }
   .legal { grid-column: auto; }
 }
@@ -417,6 +457,12 @@ h3 {
   }
   .section {
     padding: 56px 0;
+  }
+  .support-card {
+    padding: 24px;
+  }
+  .support-button {
+    width: 100%;
   }
 }
 
