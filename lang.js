@@ -35,8 +35,13 @@ const translations = {
     principlePrivacyCopy: "Collect only what a feature actually needs.",
     principleTransparentTitle: "Transparent",
     principleTransparentCopy: "Document behaviour, limits and source code where appropriate.",
+    supportEyebrow: "Support",
+    supportTitle: "Support Arrow87 Home.",
+    supportCopy: "If these apps are useful to you and you would like to support continued development, a small donation is always appreciated.",
+    supportButton: "Donate via PayPal",
     footerTagline: "Independent Homey community development",
     footerSupport: "Support",
+    footerDonate: "Donate",
     legal: "Homey is a trademark of Athom B.V. Arrow87 Home is an independent community developer and is not affiliated with Athom B.V."
   },
   nl: {
@@ -75,8 +80,13 @@ const translations = {
     principlePrivacyCopy: "Verzamel alleen wat een functie daadwerkelijk nodig heeft.",
     principleTransparentTitle: "Transparant",
     principleTransparentCopy: "Documenteer gedrag, beperkingen en broncode waar dat passend is.",
+    supportEyebrow: "Steun",
+    supportTitle: "Steun Arrow87 Home.",
+    supportCopy: "Zijn deze apps nuttig voor je en wil je de verdere ontwikkeling ondersteunen, dan wordt een kleine donatie altijd gewaardeerd.",
+    supportButton: "Doneer via PayPal",
     footerTagline: "Onafhankelijke Homey community-ontwikkeling",
     footerSupport: "Support",
+    footerDonate: "Doneren",
     legal: "Homey is een handelsmerk van Athom B.V. Arrow87 Home is een onafhankelijke community developer en is niet gelieerd aan Athom B.V."
   }
 };
