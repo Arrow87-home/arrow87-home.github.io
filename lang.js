@@ -85,8 +85,13 @@ const supportedLanguages = ["nl", "en"];
 const storageKey = "arrow87-language";
 
 function getInitialLanguage() {
-  const saved = localStorage.getItem(storageKey);
-  if (supportedLanguages.includes(saved)) return saved;
+  const preselected = document.documentElement.dataset.initialLang;
+  if (supportedLanguages.includes(preselected)) return preselected;
+
+  try {
+    const saved = localStorage.getItem(storageKey);
+    if (supportedLanguages.includes(saved)) return saved;
+  } catch {}
 
   const browserLanguage = (navigator.language || "en").toLowerCase();
   return browserLanguage.startsWith("nl") ? "nl" : "en";
@@ -120,7 +125,12 @@ function applyLanguage(language) {
     button.setAttribute("aria-pressed", String(active));
   });
 
-  localStorage.setItem(storageKey, selected);
+  try {
+    localStorage.setItem(storageKey, selected);
+  } catch {}
+
+  document.documentElement.dataset.initialLang = selected;
+  document.documentElement.classList.remove("i18n-loading");
 }
 
 document.addEventListener("DOMContentLoaded", () => {
