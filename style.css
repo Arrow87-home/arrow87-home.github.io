@@ -142,6 +142,9 @@ h1 {
   font-size: clamp(3rem, 8vw, 6.7rem);
   line-height: .98;
   letter-spacing: -.065em;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
 }
 .hero-copy {
   max-width: 690px;
@@ -408,7 +411,9 @@ h3 {
     padding: 64px 0 58px;
   }
   h1 {
-    font-size: clamp(2.55rem, 12vw, 3.75rem);
+    font-size: clamp(2.5rem, 11vw, 3.55rem);
+    overflow-wrap: anywhere;
+    hyphens: auto;
   }
   .section {
     padding: 56px 0;
