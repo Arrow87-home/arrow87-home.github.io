@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="i18n-loading">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Independent Homey community apps and smart home tools by Arrow87 Home.">
   <meta name="theme-color" content="#0b1114">
   <meta property="og:title" content="Arrow87 Home">
@@ -10,9 +10,40 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://arrow87-home.github.io/">
   <title>Arrow87 Home — Homey community apps</title>
+
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("arrow87-language");
+        const browser = (navigator.language || "en").toLowerCase();
+        const language =
+          saved === "nl" || saved === "en"
+            ? saved
+            : browser.startsWith("nl")
+              ? "nl"
+              : "en";
+
+        document.documentElement.lang = language;
+        document.documentElement.dataset.initialLang = language;
+      } catch {
+        document.documentElement.dataset.initialLang = "en";
+      }
+
+      window.setTimeout(() => {
+        document.documentElement.classList.remove("i18n-loading");
+      }, 700);
+    })();
+  </script>
+
   <link rel="icon" href="/assets/data-watchdog.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
   <script src="/lang.js" defer></script>
+
+  <noscript>
+    <style>
+      html.i18n-loading body { visibility: visible; }
+    </style>
+  </noscript>
 </head>
 <body>
   <div class="page-shell">
