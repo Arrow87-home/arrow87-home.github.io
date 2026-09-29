@@ -8,6 +8,6 @@ Independent Homey community apps and smart home tools.
 
 ## Projects
 
-- [Homey Data Watchdog](https://github.com/Arrow87-home/homey-data-watchdog)
+- [Data Pulse](https://github.com/Arrow87-home/homey-data-pulse)
 
 The site is intentionally dependency-free: plain HTML and CSS, hosted with GitHub Pages.
