@@ -508,3 +508,42 @@ h3 {
   html { scroll-behavior: auto; }
   *,*::before,*::after { transition: none !important; }
 }
+.lab-intro {
+  max-width: 760px;
+  margin: 20px 0 0;
+  color: var(--muted);
+}
+.lab-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.lab-card {
+  min-width: 0;
+  padding: 24px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  overflow-wrap: anywhere;
+}
+.lab-card h3 { font-size: 1.15rem; }
+.lab-badge {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: .76rem;
+}
+.lab-card p {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: .94rem;
+}
+.lab-disclaimer {
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: .84rem;
+}
+@media (max-width: 900px) {
+  .lab-grid { grid-template-columns: minmax(0, 1fr); }
+}

@@ -4,7 +4,7 @@ Source for the Arrow87 Home developer site:
 
 **https://arrow87-home.github.io**
 
-Independent Homey community apps and smart home tools.
+Independent Homey community apps and smart home tools, alongside brief overviews of private development projects.
 
 ## Projects
 

@@ -1,5 +1,15 @@
 const translations = {
   en: {
+    labTitle: "In the lab",
+    labIntro: "Not everything I build is meant to become a public product. These are some of the private projects I use to explore better interfaces, home automation and personal AI in my own environment.",
+    labPrivateBadge: "Private project",
+    labComfyName: "Comfy Home",
+    labComfyDescription: "A private iOS app built specifically around one home and the people living in it. The goal is a simple, personal interface for everyday smart-home use rather than another generic control app.",
+    labDashboardName: "Home Dashboard",
+    labDashboardDescription: "A central interface that brings data and control from different systems together. The focus is not on showing as many numbers as possible, but on turning them into useful information for daily life.",
+    labAgentName: "Local Agent",
+    labAgentDescription: "An exploration of what a truly personal AI agent can look like when privacy, permissions, memory and long-term extensibility are part of the architecture from the beginning.",
+    labDisclaimer: "Private development — shown as project overviews only. Source code and internal infrastructure are not public.",
     title: "Arrow87 Home — Homey community apps",
     metaDescription: "Independent Homey community apps and smart home tools by Arrow87 Home.",
     ogDescription: "Independent Homey community apps and smart home tools.",
@@ -44,6 +54,16 @@ const translations = {
     legal: "Homey is a trademark of Athom B.V. Arrow87 Home is an independent community developer and is not affiliated with Athom B.V."
   },
   nl: {
+    labTitle: "In het lab",
+    labIntro: "Niet alles wat ik bouw is bedoeld om een openbaar product te worden. Dit zijn enkele privéprojecten waarmee ik in mijn eigen omgeving experimenteer met betere interfaces, woningautomatisering en persoonlijke AI.",
+    labPrivateBadge: "Privéproject",
+    labComfyName: "Comfy Home",
+    labComfyDescription: "Een eigen iOS-app, specifiek gebouwd rond één huis en de mensen die er wonen. Het doel is een eenvoudige, persoonlijke interface voor dagelijks smarthomegebruik in plaats van nog een generieke bedieningsapp.",
+    labDashboardName: "Home Dashboard",
+    labDashboardDescription: "Een centrale interface die data en bediening uit verschillende systemen samenbrengt. Niet zoveel mogelijk cijfers tonen, maar informatie bruikbaar maken voor het dagelijks leven.",
+    labAgentName: "Local Agent",
+    labAgentDescription: "Een verkenning van hoe een echt persoonlijke AI-agent eruitziet wanneer privacy, rechten, geheugen en uitbreidbaarheid vanaf het begin onderdeel zijn van de architectuur.",
+    labDisclaimer: "Privéontwikkeling — alleen als projectoverzicht getoond. Broncode en interne infrastructuur zijn niet openbaar.",
     title: "Arrow87 Home — Homey community-apps",
     metaDescription: "Onafhankelijke Homey community-apps en smarthome-tools van Arrow87 Home.",
     ogDescription: "Onafhankelijke Homey community-apps en smarthome-tools.",
